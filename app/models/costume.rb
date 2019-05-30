@@ -7,6 +7,8 @@ class Costume < ActiveRecord::Base
       t.integer :price
       t.string :size
       t.string :imageURL
+      t.datetime :created_at
+      t.datetime :updated_at
     end
   end
 end
